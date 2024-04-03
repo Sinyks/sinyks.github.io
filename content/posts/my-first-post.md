@@ -3,7 +3,7 @@ title: "My First Post"
 date: 2024-04-02T21:07:40+02:00
 slug: 2024-04-02-my-first-post
 type: posts
-draft: true
+draft: true 
 categories:
   - default
 tags:
