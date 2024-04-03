@@ -3,11 +3,13 @@ title: "My First Post"
 date: 2024-04-02T21:07:40+02:00
 slug: 2024-04-02-my-first-post
 type: posts
-draft: false 
+draft: true 
 categories:
-  - default
+  - posts 
 tags:
-  - default
+  - linux
+  - BSD
+  - network 
 ---
 
 # Quaeratur ratibus quod ubi mea regis has
