@@ -6,7 +6,7 @@ title = "unlimited coffee"
 theme = 'smol'
 
 [params]
-    subtitle = "How it's you again..."
+    subtitle = "oh... it's you again"
     dateFmt = "02.01.2006 15:04"
 	
 # Header
