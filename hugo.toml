@@ -3,7 +3,7 @@
 baseURL = 'https://sinyks.github.io/'
 languageCode = 'ch-fr'
 title = "unlimited coffee"
-theme = 'smol'
+theme = 'plague'
 
 [params]
     subtitle = "oh... it's you again"
@@ -12,7 +12,7 @@ theme = 'smol'
 # Header
 [menu]
 	[[menu.main]]
-		identifier = "posts"
+	identifier = "posts"
         name = "Posts"
         url = "/posts/"
         weight = 1 
