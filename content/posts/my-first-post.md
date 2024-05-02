@@ -34,23 +34,48 @@ ad hausit mediis agmine. Bacae dissipat *pugna* blanditus victis fumat *provida
 feroces* inveniunt ignem *devenit ulvam* arbor sua gerit. Neve pater temperat;
 eadem, quodcunque et vulnere timidusque adferre cara cortex somno monstraverat.
 Ducem ordine obambulat filia caeli formam: si montis capillis: inscribit?
-```C
-    if (dayPaste) {
-        ntfsClientDsl(4 + parity_deprecated_paste, commercial);
-    } else {
-        unix.andParsePush(575616, room_terahertz);
-        ioSystem.vertical_lion(2);
-        type_home = kilohertzUsername;
-    }
-    terahertzLampIrq += pcmciaBlu(73, program) + thunderboltAiffEdi + 5;
-    gbps_ip_alpha *= newline_snapshot_function(utf_edutainment, ergonomics) + 4
-            + add * -5 - link;
-    samba.mouse *= model_hardware(postItunesBug(suffix), num_drop + ospfUriOle +
-            fileXhtmlDefault + switch_search_daw);
-    if (2 > ad) {
-        lifo = vlbGigabyteIllegal(offline + linkClientSidebar);
-        key(denial_down - windows, icmpAjaxGrayscale, memory_zif_jsf);
-    }
+```go
+package main
+
+import "fmt"
+
+// calculateSquares calculates the sum of the squares of the digits of the given number
+// and sends the result to the squareop channel.
+func calculateSquares(number int, squareop chan int) {
+	sum := 0
+	for number != 0 {
+		digit := number % 10
+		sum += digit * digit
+		number /= 10
+	}
+	squareop <- sum
+}
+
+// calculateCubes calculates the sum of the cubes of the digits of the given number
+// and sends the result to the cubeop channel.
+func calculateCubes(number int, cubeop chan int) {
+	sum := 0
+	for number != 0 {
+		digit := number % 10
+		sum += digit * digit * digit
+		number /= 10
+	}
+	cubeop <- sum
+}
+
+func main() {
+	number := 589
+	sqrch := make(chan int)
+	cubech := make(chan int)
+
+	// Start two goroutines to calculate the sum of squares and cubes of the digits.
+	go calculateSquares(number, sqrch)
+	go calculateCubes(number, cubech)
+
+	// Receive the results from the channels and add them.
+	squares, cubes := <-sqrch, <-cubech
+	fmt.Println("Final result", squares+cubes)
+}
 ```
 ## Sit a
 
