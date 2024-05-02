@@ -5,6 +5,7 @@ languageCode = 'ch-fr'
 title = "unlimited coffee"
 theme = 'smol'
 
+
 [markup]
   [markup.highlight]
     anchorLineNos = false
@@ -25,6 +26,7 @@ theme = 'smol'
   # subtitle = "oh... it's you again"
   dateFmt = "02.01.2006 15:04"
   siteHeaderText = "Unlimited coffee"
+  customCSS = ["css/custom_style.css"]
 # Header
 [menu]
 	[[menu.main]]
