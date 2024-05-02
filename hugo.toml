@@ -5,6 +5,22 @@ languageCode = 'ch-fr'
 title = "unlimited coffee"
 theme = 'smol'
 
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'github-dark'
+    tabWidth = 4
+
 [params]
   # subtitle = "oh... it's you again"
   dateFmt = "02.01.2006 15:04"
